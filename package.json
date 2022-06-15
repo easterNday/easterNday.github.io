@@ -7,14 +7,17 @@
   "author": "easterNday",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "@commitlint/prompt-cli": "^17.0.0",
+    "husky": "^8.0.1",
     "vuepress": "^1.9.7"
   },
-  // 运行脚本
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "commit": "commit"
   },
-  // 约定式提交
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
