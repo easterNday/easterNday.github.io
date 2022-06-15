@@ -1,0 +1,23 @@
+{
+  "name": "easterNday",
+  "version": "1.0.0",
+  "description": "个人网站。",
+  "main": "index.js",
+  "repository": "https://github.com/easterNday/easterNday.github.io",
+  "author": "easterNday",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  // 运行脚本
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  // 约定式提交
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
