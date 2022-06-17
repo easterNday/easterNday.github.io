@@ -3,19 +3,30 @@ const { backToTopPlugin } = require('@vuepress/plugin-back-to-top')
 const { searchPlugin } = require('@vuepress/plugin-search')
 const { defaultTheme } = require('@vuepress/theme-default')
 const { gitPlugin } = require('@vuepress/plugin-git')
+
 module.exports = {
-    title: 'Hello VuePress',
-    description: 'Just playing around',
-    themeConfig: {
-        logo: '/assets/img/logo.png',
-        nav: [
-          { text: 'Home', link: '/' },
-          { text: 'Guide', link: '/guide/' },
-          { text: 'External', link: 'https://google.com' },
-        ]
+  base: '/',
+  lang: 'zh-CN',
+  title: 'DogDay',
+  description: '一个人只要败的漂亮，走的洒脱。那败又何妨，走又何妨。',
+  head: [
     [
+      "link",
+      { rel: "stylesheet", type: "text/css", href: "/css/font.css" },
+    ],
+  ],
+  theme: defaultTheme({
+    logo: "/assets/logo.svg",
+    repo: 'https://github.com/easterNday/easterNday.github.io',
+    displayAllHeaders: true,
+    navbar: [
+      /*
+      { text: 'Github', link: 'https://github.com/easterNday/easterNday.github.io' },
+      */
+    ],
+  }),
   plugins: [
-    }
+    [
       mediumZoomPlugin(),
       backToTopPlugin(),
       searchPlugin(),
@@ -25,4 +36,5 @@ module.exports = {
         contributors: true
       })
     ]
+  ],
 }
