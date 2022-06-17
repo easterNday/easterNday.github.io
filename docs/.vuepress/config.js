@@ -19,18 +19,46 @@ module.exports = {
   theme: defaultTheme({
     logo: "/assets/logo.svg",
     repo: 'https://github.com/easterNday/easterNday.github.io',
-    editLink : true,
-    editLinkText : '编辑此页',
-    docsRepo: 'https://github.com/easterNday/easterNday.github.io',
-    docsBranch: 'main',
-    docsDir: 'docs',
-    editLinkPattern: ':repo/-/edit/:branch/:path',
     displayAllHeaders: true,
     navbar: [
       /*
       { text: 'Github', link: 'https://github.com/easterNday/easterNday.github.io' },
       */
     ],
+    sidebar: [
+      {
+        text: " 不是前言",
+        children: ["/preface.md"],
+      },
+      {
+        text: " 眼睛是心灵的窗户",
+        children: [
+          {
+            text: " 基础安装",
+            children: [
+            ],
+          },
+          {
+            text: " WSL子系统",
+            children: [
+              "/windows/wsl/Free-WSL-unused-space.md",
+            ],
+          },
+        ],
+      },
+    ],
+    sidebarDepth: 1,
+    smoothScroll: true,
+    activeHeaderLinks: false,
+    editLink : true,
+    editLinkText : ' 编辑此页',
+    lastUpdatedText: "ﮮ 最后更新",
+    contributorsText: " 参与贡献",
+    docsRepo: 'https://github.com/easterNday/easterNday.github.io',
+    docsBranch: 'main',
+    docsDir: 'docs',
+    editLinkPattern: ':repo/-/edit/:branch/:path',
+    backToHome: " 把我带回家",
   }),
   plugins: [
     [
