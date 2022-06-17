@@ -35,16 +35,6 @@
     rel="noopener noreferrer"
   >
     <img
-      alt="arch-guide"
-      src="https://travis-ci.com/easterNday/easterNday.github.io.svg?branch=main"
-    />
-  </a>
-  <a
-    href="https://github.com/easterNday/easterNday.github.io"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img
       alt="GitHub last commit"
       src="https://img.shields.io/github/last-commit/easterNday/easterNday.github.io"
     />
@@ -132,11 +122,11 @@ yarn config set <key> <value> [-g|--global]  # 设置配置项
 
 本网页利用 `VuePress` 进行构建，具体实现请参照本项目以及 [VuePress中文文档](https://www.vuepress.cn/guide/) 中的相关说明。
 
-##  致谢
+## 致谢
 
 [archlinux 简明指南](https://arch.icekylin.online/)： 网站源代码在一定程度上参考了该项目的部分风格样式。
 
-##  版权说明
+## 版权说明
 
 [![license](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
