@@ -57,7 +57,7 @@ module.exports = {
     docsRepo: 'https://github.com/easterNday/easterNday.github.io',
     docsBranch: 'main',
     docsDir: 'docs',
-    editLinkPattern: ':repo/-/edit/:branch/:path',
+    editLinkPattern: ':repo/edit/:branch/:path',
     backToHome: " 把我带回家",
   }),
   plugins: [
