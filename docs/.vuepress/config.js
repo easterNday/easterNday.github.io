@@ -28,7 +28,13 @@ module.exports = {
     sidebar: [
       {
         text: " 不是前言",
-        children: ["/preface.md"],
+        children: [
+          "/preface.md",
+          {
+            text: " 程序员延寿指南",
+            link: "https://github.com/geekan/HowToLiveLonger",
+          },
+        ],
       },
       {
         text: " 眼睛是心灵的窗户",
@@ -50,8 +56,8 @@ module.exports = {
     sidebarDepth: 1,
     smoothScroll: true,
     activeHeaderLinks: false,
-    editLink : true,
-    editLinkText : ' 编辑此页',
+    editLink: true,
+    editLinkText: ' 编辑此页',
     lastUpdatedText: "ﮮ 最后更新",
     contributorsText: " 参与贡献",
     docsRepo: 'https://github.com/easterNday/easterNday.github.io',
@@ -66,7 +72,7 @@ module.exports = {
       backToTopPlugin(),
       searchPlugin(),
       shikiPlugin({
-        theme:'material-palenight'
+        theme: 'material-palenight'
       })
     ]
   ],
