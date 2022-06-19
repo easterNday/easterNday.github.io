@@ -54,6 +54,45 @@ module.exports = {
           },
         ],
       },
+      {
+        text: "練 资源网站",
+        children: [
+          {
+            text: " 游戏相关",
+            children: [
+              {
+                text: "俄罗斯游戏破解网站",
+                link: "https://byrut.org/",
+              },
+              {
+                text: "小幸修改器",
+                link: "https://www.xiaoxingjie.com/",
+              },
+              {
+                text: "GalGame",
+                link: "https://www.ggbases.com/",
+              },
+              {
+                text: "老男人游戏网",
+                link: "https://www.oldmanemu.net/",
+              },
+            ],
+          },
+          {
+            text: "ﬓ 软件相关",
+            children: [
+              {
+                text: "懒得勤快",
+                link: "https://masuit.com/",
+              },
+              {
+                text: "果核剥壳",
+                link: "https://www.ghxi.com/",
+              },
+            ],
+          },
+        ],
+      },
     ],
     sidebarDepth: 1,
     smoothScroll: true,
