@@ -47,8 +47,9 @@ module.exports = {
           {
             text: " WSL子系统",
             children: [
-              "/windows/wsl/Free-WSL-unused-space.md",
               "/windows/wsl/Arch-Linux-on-WSL2.md",
+              "/windows/wsl/Set-Default-Login-User.md",
+              "/windows/wsl/Free-WSL-unused-space.md",
             ],
           },
         ],
