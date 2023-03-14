@@ -30,10 +30,9 @@ git lfs install
 开启支持后，我们可以使用 `git lfs track <File>` 来记录追踪您需要添加的大型文件。
 
 
-:::: code-group
-::: code-group-item 单个文件
+::: code-group
 
-```zsh
+```zsh [单个文件]
 # git lfs track "path/to/file"
 # 示例：
 git lfs track "./README.md"
@@ -43,10 +42,7 @@ git lfs track "./README.md"
 git lfs untrack "./README.md"
 ```
 
-:::
-::: code-group-item 指定类型
-
-```zsh
+```zsh [指定类型]
 # git lfs track "path/to/dir/*.type"
 # 示例：
 git lfs track "*.md"
@@ -58,10 +54,7 @@ git lfs untrack "*.md"
 git lfs untrack ".config/*.md"
 ```
 
-:::
-::: code-group-item 整个目录
-
-```zsh
+```zsh [整个目录]
 # git lfs track "path/to/dir/*"
 # 示例：
 git lfs track ".config/*"
@@ -72,7 +65,6 @@ git lfs untrack ".config/*"
 ```
 
 :::
-::::
 
 ## 查看已追踪文件
 

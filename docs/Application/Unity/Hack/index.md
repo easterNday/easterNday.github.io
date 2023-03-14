@@ -6,7 +6,7 @@
 
 ## Unity 游戏文件夹结构(已编译好的游戏软体)
 
-``` plaintext
+```bash
 │  *.exe
 └──*_Data
    │  globalgamemanagers

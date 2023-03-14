@@ -16,18 +16,9 @@ const sidebarConfig: DefaultTheme.Sidebar = {
       text: "Arch Linux",
       items: [
         { text: "简介", link: "/Topic/Arch/" },
-        { text: "安装教程", link: "/Topic/Arch/Installation/" },
-        {
-          text: "系统美化",
-          collapsed: true,
-          items: [
-            { text: "Oh-my-zsh 安装", link: "/Topic/Arch/Beautify/OMZ" },
-            {
-              text: "Power10k 终端主题",
-              link: "/Topic/Arch/Beautify/Powerlevel10k",
-            },
-          ],
-        },
+        { text: "安装教程", link: "/Topic/Arch/Installation.md" },
+        { text: "仓库相关", link: "/Topic/Arch/Repos.md" },
+        { text: "终端相关", link: "/Topic/Arch/Terminal.md" },
       ],
     },
   ],

@@ -21,33 +21,33 @@ features:
   - icon: 
     title: Arch Linux
     details: 操作系统：Archcraft<br/>设备：华硕 FX80GM 火陨版
-    link: /Topic/Arch
+    link: /Topic/Arch/
     linkText: 查看更多
   - icon: 
     title: Windows
     details: 操作系统：Windows11<br/>设备：酷比魔方 iWork GT
-    link: /Topic/Windows
+    link: /Topic/Windows/
     linkText: 查看更多
   - icon: 
     title: Android
     details: 操作系统：ArrowOS<br/>设备：小米 10S(thyme)
-    link: /Topic/Android
+    link: /Topic/Android/
     linkText: 查看更多
   - icon: 
     title: ChromeOS
     details: 暂无
-    link: /Topic/ChromeOS
+    link: /Topic/ChromeOS/
     linkText: 查看更多
 
   - icon: 
     title: Git
     details: Git 工具的操作及使用
-    link: /Topic/Git
+    link: /Application/Git/
     linkText: 查看更多
   - icon: 
     title: Unity
     details: Unity 项目开发及插件推荐
-    link: /Topic/Unity
+    link: /Application/Unity/
     linkText: 查看更多
   - icon: 
     title: VSCodium
