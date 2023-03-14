@@ -2,8 +2,6 @@
 
 ## 现役设备
 
-![Xiaomi Mi 10S](https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1615342326.05373482.jpg "Xiaomi Mi 10S")
-
 型号：Xiaomi Mi 10S
 
 代号：thyme

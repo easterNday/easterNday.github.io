@@ -83,43 +83,29 @@ const sidebarConfig: DefaultTheme.Sidebar = {
       items: [
         { text: "简介", link: "/Topic/Android/" },
         {
+          text: "Root 相关",
+          collapsed: true,
+          items: [
+            {
+              text: "IdontKnowRoot",
+              link: "https://root.dianas.cyou/",
+            },
+            {
+              text: "镜像提取 Payload-dumper",
+              link: "Topic/Android/Root/Payload_dumper.md",
+            },
+          ],
+        },
+        {
           text: "内核开发",
           collapsed: true,
           items: [
             { text: "内核介绍", link: "/Topic/Android/Kernel/" },
-            {
-              text: "内核编译",
-              collapsed: true,
-              items: [
-                {
-                  text: "编译前准备",
-                  link: "/Topic/Android/Kernel/How to compile a kernel/0.Essential knowledge",
-                },
-                {
-                  text: "获取内核源码",
-                  link: "/Topic/Android/Kernel/How to compile a kernel/1.Get kernel source",
-                },
-                {
-                  text: "获取编译工具链",
-                  link: "/Topic/Android/Kernel/How to compile a kernel/2.Get toolchains",
-                },
-                {
-                  text: "开始内核编译",
-                  link: "/Topic/Android/Kernel/How to compile a kernel/3.Start compile",
-                },
-                {
-                  text: "制作内核刷机包",
-                  link: "/Topic/Android/Kernel/How to compile a kernel/4.Make flashable image",
-                },
-                {
-                  text: "常见问题处理",
-                  link: "/Topic/Android/Kernel/How to compile a kernel/5.Frequently asked question",
-                },
-              ],
-            },
+            { text: "内核编译", link: "/Topic/Android/Kernel/Compile.md" },
+            { text: "KernelSU", link: "/Topic/Android/Kernel/KernelSU.md" },
           ],
         },
-        { text: "小米手机", link: "/Topic/Android/Xiaomi/" },
+        { text: "小米手机", link: "/Topic/Android/Xiaomi.md" },
       ],
     },
   ],
@@ -140,8 +126,14 @@ const sidebarConfig: DefaultTheme.Sidebar = {
           text: "Githbu 相关",
           collapsed: true,
           items: [
-            { text: "Github 授权", link: "/Application/Git/Github/Github_Credentials.md" },
-            { text: "Github 加速", link: "/Application/Git/Github/Github520.md" },
+            {
+              text: "Github 授权",
+              link: "/Application/Git/Github/Github_Credentials.md",
+            },
+            {
+              text: "Github 加速",
+              link: "/Application/Git/Github/Github520.md",
+            },
           ],
         },
       ],
@@ -156,9 +148,7 @@ const sidebarConfig: DefaultTheme.Sidebar = {
         {
           text: "破解修改",
           collapsed: true,
-          items: [
-            { text: "指南", link: "/Application/Unity/Hack/" },
-          ],
+          items: [{ text: "指南", link: "/Application/Unity/Hack/" }],
         },
         {
           text: "插件推荐",
@@ -171,7 +161,10 @@ const sidebarConfig: DefaultTheme.Sidebar = {
           text: "项目管理",
           collapsed: true,
           items: [
-            { text: "忽略列表", link: "/Application/Unity/Project/GitIgnoreTemplate.md" },
+            {
+              text: "忽略列表",
+              link: "/Application/Unity/Project/GitIgnoreTemplate.md",
+            },
           ],
         },
       ],
