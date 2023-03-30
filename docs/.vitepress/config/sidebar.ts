@@ -19,6 +19,16 @@ const sidebarConfig: DefaultTheme.Sidebar = {
         { text: "安装教程", link: "/Topic/Arch/Installation.md" },
         { text: "仓库相关", link: "/Topic/Arch/Repos.md" },
         { text: "终端相关", link: "/Topic/Arch/Terminal.md" },
+        {
+          text: "其他设置",
+          collapsed: true,
+          items: [
+            {
+              text: "风扇转速设置",
+              link: "/Topic/Arch/Special/Fan.md",
+            },
+          ],
+        },
       ],
     },
   ],
