@@ -22,7 +22,7 @@ export default defineConfig({
     sidebar, // 侧边导航栏
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/easterNday/easterNday.github.io" },
     ],
   },
 });

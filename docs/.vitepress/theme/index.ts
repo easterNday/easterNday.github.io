@@ -1,7 +1,8 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
 import Theme from 'vitepress/theme'
-import './style.css'
+import './style/vars.css'
+import './style/font.css'
 
 export default {
   ...Theme,

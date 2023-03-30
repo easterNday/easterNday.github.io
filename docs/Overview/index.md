@@ -38,8 +38,7 @@ pnpm docs:dev
 
 ## 字体来源
 
-- 字体：[Sarasa Term SC Nerd](https://github.com/laishulu/Sarasa-Term-SC-Nerd): 网站上使用了相关字体并在部分美化教程中进行了引用。
-    + 字体类型：[NerdFonts](https://www.nerdfonts.com)
+- 字体：[NerdFonts](https://www.nerdfonts.com) 下的 `Ubuntu` 字体。
 
 ## 版权说明
 
