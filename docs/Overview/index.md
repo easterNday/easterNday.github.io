@@ -1,4 +1,4 @@
-# 总览
+#  总览
 
 ##  本地部署
 
@@ -36,11 +36,11 @@ pnpm docs:dev
 
 > 若您使用其他包管理器（如 `yarn` 等），请参考指令自行进行对应部分替换。
 
-## 字体来源
+##  字体来源
 
 - 字体：[NerdFonts](https://www.nerdfonts.com) 下的 `Ubuntu` 字体。
 
-## 版权说明
+##  版权说明
 
 [![license](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 

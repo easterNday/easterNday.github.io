@@ -1,6 +1,6 @@
-# Arch Linux 仓库
+#  Arch Linux 仓库
 
-## 系统补熵
+##  系统补熵
 
 有些时候，当我们在进行上游仓库同步的过程中，可能会出现如下提示：
 
@@ -84,7 +84,7 @@ sudo pacman-key --populate
 # sudo pacman-key --populate archlinuxcn
 ```
 
-## 非官方用户仓库
+##  非官方用户仓库
 
 > 此处仅列举出我常用的几个仓库，更多仓库请参考[官方文档](https://wiki.archlinux.org/title/Unofficial_user_repositories)
 
@@ -190,7 +190,7 @@ sudo pacman-key --keyserver hkps://keyserver.ubuntu.com --recv-key 76C6E477042BF
 sudo pacman-key --lsign 76C6E477042BFE985CC220BD9C08A255442FAFF0
 ```
 
-## 参考
+##  参考
 
 - [GnuPG-2.1 与 Pacman 密钥环](https://www.archlinuxcn.org/gnupg-2-1-and-the-pacman-keyring/)
 - [Unofficial user repositories](https://wiki.archlinux.org/title/Unofficial_user_repositories)

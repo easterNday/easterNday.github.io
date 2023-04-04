@@ -1,4 +1,4 @@
-# Arch Linux 终端相关内容
+#  Arch Linux 终端相关内容
 
 本人目前使用的终端是 `zsh` 。
 
@@ -25,7 +25,7 @@ chsh -s /usr/bin/zsh
 
 至此， `Zsh` 设置基本完成，更多设置可以参考[官方Wiki](https://wiki.archlinux.org/title/zsh)。
 
-## Oh-my-zsh
+##  Oh-my-zsh
 
 [`Oh My Zsh`](https://github.com/ohmyzsh/ohmyzsh)是一个开源、社区驱动的框架，用于管理Zsh配置。
 
@@ -61,7 +61,7 @@ paru -Sy oh-my-zsh-git
 cp /usr/share/oh-my-zsh/zshrc ~/.zshrc
 ```
 
-## 插件推荐
+##  插件推荐
 
 本人一般只使用如下两个插件：
 

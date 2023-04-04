@@ -1,14 +1,14 @@
-# 简明安装指南
+#  简明安装指南
 
 由于本人没有 ChromeBook，因此本指南仅针对第三方系统使用的类 Chrome OS 系统的安装展开，官方的 Chrome OS 请自行参考官方指南。
 
-## 分发版本
+##  分发版本
 
 [Chrome OS Flex](https://chromeenterprise.google/os/chromeosflex/): ChromeOS由 Google 官方提供给第三方系统安装的 ChromeOS Flex。
 
 [Fyde OS](https://fydeos.com/): FydeOS 移动性强、安全性高、简单高效、易于管理，降低企业采购和运维成本，助力企业破局云时代，让员工随时随地访问云端工具，真正实现云计算赋能。
 
-## Chrome OS Flex
+## 󰿗 Chrome OS Flex
 
 ### 系统要求
 尽管 Google 仅支持特定设备，但您仍然可以在几乎任何硬件上安装操作系统，只要它满足最低要求：
@@ -40,7 +40,7 @@
 
 完成这些步骤后，重新启动电脑，并用指定的 USB 存储介质进行安装即可。
 
-## Fyde OS
+## 󱨸 Fyde OS
 
 首先我们需要去[官方下载页面](https://fydeos.com/download/)选择对应版本的系统进行下载。
 

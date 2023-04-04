@@ -1,8 +1,8 @@
-# KernelSU
+#  KernelSU
 
 顾名思义，`KernelSU` 就是基于内核的 `SU` 。它通过自定义内核，直接在内核中赋予目标进程 `Root` 权限。
 
-## 前身
+## 󰐩 前身
 
 大约 2018 年的时候，XDA 上的 `zx2c4` 就给出了一个 [KernelSU 的简单实现](https://git.zx2c4.com/kernel-assisted-superuser/)；虽然整个实现非常简单，但它的确给我们展示了另外一种可能。
 
@@ -10,12 +10,12 @@
 
 在 [GKI 2.0](https://source.android.com/docs/core/architecture/kernel/generic-kernel-image?hl=zh-cn) 出现之前，各厂商的内核都是各自为战，因此内核碎片化严重，因此当时 `KernelSU` 并不能成为一个通用的 Root 方案。而随着 [GKI 2.0](https://source.android.com/docs/core/architecture/kernel/generic-kernel-image?hl=zh-cn) 的出现，内核逐渐在各个手机之间通用，使得 `KernelSU` 的推广也成为了可能。
 
-## 特性
+## 󰩉 特性
 
 - 基于内核的 su 和权限管理。
 - 基于 overlayfs 的模块系统。
 
-## KernelSU 安装
+##  KernelSU 安装
 
 ### 1. 检查您的设备是否被支持
 
@@ -55,19 +55,19 @@ KernelSU 的安装方法有如下几种，各自适用于不同的场景，请�
 
 具体操作过程可以查看[官方文档](https://kernelsu.org/zh_CN/guide/installation.html#%E5%AE%89%E8%A3%85%E4%BB%8B%E7%BB%8D)。
 
-## 如何为非 GKI 内核集成 KernelSU
+##  如何为非 GKI 内核集成 KernelSU
 
 请查阅[官方文档](https://kernelsu.org/zh_CN/guide/how-to-integrate-for-non-gki.html)以及本博客中的[内核编译教程](/Topic/Android/Kernel/Compile.md)。
 
 一些现成的第三方 KernelSU 提供请查看[非官方支持设备](https://kernelsu.org/zh_CN/guide/unofficially-support-devices.html#%E9%9D%9E%E5%AE%98%E6%96%B9%E6%94%AF%E6%8C%81%E8%AE%BE%E5%A4%87)。
 
-## 必备模块
+## 󰎑 必备模块
 
 + [ZygiskOnKernelSU](https://github.com/Dr-TSNG/ZygiskOnKernelSU): 使用 `KernelSU` 运行 `Zygisk`
 
 > 刷入上面的模块后，其他常用模块直接刷入，部分模块可能存在问题。
 
-## 参考
+##  参考
 
 - [KernelSU 官网](https://kernelsu.org/zh_CN/guide/installation.html)
 - [何为 Root？](https://mp.weixin.qq.com/s?__biz=MjM5Njg5ODU2NA==&mid=2257499009&idx=1&sn=3cfce1ea7deb6e0e4f2ac170cffd7cc1&scene=21#wechat_redirect)

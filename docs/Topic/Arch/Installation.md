@@ -1,6 +1,6 @@
-# Arch Linux 简明安装指南
+#  Arch Linux 简明安装指南
 
-## 自动安装
+##  自动安装
 
 ### 1. 使用 `archinstall` 安装
 
@@ -37,14 +37,14 @@ archinstall
 - [Archcraft](https://archcraft.io/): 基于 ArchLinux 的第三方版本，个人目前在用，部分版本需要收费
 - [ArchLinux GUI](https://archlinuxgui.in/): 这是一个纯净的 Arch Linux,只预装了桌面环境
 
-## 手动安装
+##  手动安装
 
 手动使用命令行安装请阅读[官方指南](https://wiki.archlinux.org/title/Installation_guide)。
 
 如果您觉得官方文档比较难理解，也可以参考 [archlinux 简明指南](https://arch.icekylin.online/) 和 [Arch Linux Studio 指南](https://archlinuxstudio.github.io/ArchLinuxTutorial/) 中对应部分的教程。
 
-> 如果您是需要在 Windows 下启用对应的子系统，请参考[WSL部分](/Topic/Windows/Virtual-Machine/Introduction-of-WSL2.md)
+> 如果您是需要在 Windows 下启用对应的子系统，请参考[WSL部分](/Topic/Windows/Virtual-Machine/WSL2.md)
 
-## 参考
+##  参考
 
 - [archinstall](https://wiki.archlinuxcn.org/wiki/Archinstall)

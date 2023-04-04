@@ -35,32 +35,24 @@ const sidebarConfig: DefaultTheme.Sidebar = {
 
   "/Topic/Windows/": [
     {
-      text: "Windows",
+      text: " Windows",
       items: [
-        { text: "简介", link: "/Topic/Windows/" },
+        { text: " 简介", link: "/Topic/Windows/" },
         {
-          text: "终端美化",
+          text: " 终端美化",
           link: "/Topic/Windows/Beautify/Nerd-Fonts-Supply.md",
         },
         {
-          text: "虚拟机",
+          text: " 虚拟机",
           collapsed: true,
           items: [
             {
               text: "Hyper-V 简介",
-              link: "/Topic/Windows/Virtual-Machine/Introduction-of-Hyper-V.md",
+              link: "/Topic/Windows/Virtual-Machine/Hyper-V.md",
             },
             {
-              text: "WSL2 简介",
-              link: "/Topic/Windows/Virtual-Machine/Introduction-of-WSL2.md",
-            },
-            {
-              text: "WSL2 系统迁移",
-              link: "/Topic/Windows/Virtual-Machine/How-to-migrate-WSL.md",
-            },
-            {
-              text: "虚拟机镜像压缩",
-              link: "/Topic/Windows/Virtual-Machine/How-to-Free-VHDX.md",
+              text: "WSL2 相关内容",
+              link: "/Topic/Windows/Virtual-Machine/WSL2.md",
             },
           ],
         },

@@ -1,8 +1,8 @@
-# 从零开始的内核编译
+#  从零开始的内核编译
 
 > 本教程将基于小米 10S 的内核源码进行实例，其他型号的手机请自行寻找内核源码。具体内容可以参考我的[内核编译项目](https://github.com/DogDayAndroid/KSU_Thyme_BuildBot)。
 
-## 手机型号查询
+##  手机型号查询
 
 ### 1. 获取设备（手机）代号
 
@@ -43,7 +43,7 @@ uname -r
 
 例如我的设备显示为 `4.19.157-Margatroid-gb1b98c3d4fd0`
 
-## 内核源码获取
+##  内核源码获取
 
 内核源码的一般格式为 `[android_]kernel_设备厂商_cpu/代号`，例如，小米 10S（thyme）的代号为 `thyme`, CPU 型号为 `sm8250`，生产厂商为 `xiaomi`，则搜索格式应为下面几种：
 
@@ -68,7 +68,7 @@ android_kernel_xiaomi_sm8250
 |       各厂商开源 | [小米内核开源](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/)<br/>[华为开源代码](https://consumer.huawei.com/en/opensource/) |
 | 去手机社区找源码 | [XDA 论坛](https://forum.xda-developers.com/)                                                                                      |
 
-## 获取编译工具链
+##  获取编译工具链
 
 > 强烈推荐您学习[[内核向] 交叉编译器的选择](https://www.akr-developers.com/d/129)以及[[白话文版] ClangBuiltLinux Clang 的使用](https://www.akr-developers.com/d/121)来学习工具链的配置。
 >
@@ -124,7 +124,7 @@ bash <(curl -s "https://raw.githubusercontent.com/Neutron-Toolchains/antman/main
 - [GitHub](https://github.com/Mandi-Sa/clang "GitHub")：仅用于发布预构建的压缩文件（\*.7z）
 - [Gitea](https://gitea.com/Mandi-Sa/clang "Gitea")：仅用于存储预构建的二进制文件（Current AR Archive、ELF 64-bit LSB shared object 存储在 LFS）
 
-## 编译脚本编写
+## 󱆃 编译脚本编写
 
 内核编译流程其实只有两步：
 
@@ -185,7 +185,7 @@ make ${args}
 - [EndCredits/kernel_xiaomi_sm7250](https://github.com/EndCredits/kernel_xiaomi_sm7250/blob/android-4.19-main/build.sh)：同样的一个编译脚本，但并未提供编译链，但是其中的脚本流程我也有参考。
 - [xiaoleGun/KernelSU_Action](https://github.com/xiaoleGun/KernelSU_Action)：`KernelSU` 的编译脚本，同样有参考。
 
-## 制作刷机包镜像
+##  制作刷机包镜像
 
 内核编译完成后的打包请参考文章[[内核向] 论如何优雅的刷入内核](https://www.akr-developers.com/d/125),目前最流行的方法是使用 [osm0sis/AnyKernel3](https://github.com/osm0sis/AnyKernel3) 来完成整个内核的打包刷入工作。
 
@@ -195,7 +195,7 @@ make ${args}
 >
 > 来自文章的评论区：\_对应芯片组的。比如 865 只需要 kona-v2.1.dtb。如果弄不清楚，可以使用 cat 命令将多个 dtb 连接在一起，bootloader 会自动识别。
 
-# 编译常见问题
+#  编译常见问题
 
 > 本教程将基于小米 10S 的内核源码进行实例，其他型号的手机请自行寻找内核源码。具体内容可以参考我的[内核编译项目](https://github.com/DogDayAndroid/KSU_Thyme_BuildBot)。
 
@@ -207,7 +207,7 @@ make ${args}
 
 您可以修改 `extern in_long_press` 为 `extern int in_long_press`;或者去除[MakeFile 中对应错误限制](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/blob/b286e90108628643abec72c90deefbd1c17c4f94/Makefile#L922)。
 
-## 参考
+##  参考
 
 - [自己编译定制一个牛逼的安卓内核](https://parrotsec-cn.org/t/topic/2168)
 - [让 Android 手机更省电流畅，你可以试试「刷内核」](https://sspai.com/post/56296)

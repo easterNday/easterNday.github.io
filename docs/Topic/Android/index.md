@@ -1,6 +1,6 @@
-# Android
+#  Android
 
-## 现役设备
+##  现役设备
 
 型号：Xiaomi Mi 10S
 
