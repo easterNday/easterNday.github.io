@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Ubuntu Nerd Font';
-  src: url('https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@master/patched-fonts/Ubuntu/Regular/complete/Ubuntu%20Nerd%20Font%20Complete%20Windows%20Compatible.ttf') format('truetype'),
-  url('https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@master/patched-fonts/Ubuntu/Regular/complete/Ubuntu%20Nerd%20Font%20Complete.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@master/patched-fonts/Ubuntu/Regular/UbuntuNerdFontPropo-Regular.ttf') format('truetype'),
+  url('https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@master/patched-fonts/Ubuntu/Regular/UbuntuNerdFont-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
