@@ -89,6 +89,7 @@ const sidebarConfig: DefaultTheme.Sidebar = {
             },
           ],
         },
+        { text: "DSU", link: "/Topic/Android/DSU/" },
         {
           text: "内核开发",
           collapsed: true,

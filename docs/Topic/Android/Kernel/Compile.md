@@ -207,6 +207,29 @@ make ${args}
 
 您可以修改 `extern in_long_press` 为 `extern int in_long_press`;或者去除[MakeFile 中对应错误限制](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/blob/b286e90108628643abec72c90deefbd1c17c4f94/Makefile#L922)。
 
+### 2. 函数参数错误
+
+```sh
+/home/easternday/Documents/KSU_Thyme_BuildBot/Kernel_Source/Lynnrin/drivers/input/touchscreen/xiaomi/xiaomi_touch.c:141:37: error: a function declaration without a prototype is deprecated in all versions of C [-Werror,-Wstrict-prototypes]
+struct class *get_xiaomi_touch_class()
+                                    ^
+                                     void
+```
+将 `struct class *get_xiaomi_touch_class()` 修改为 `struct class *get_xiaomi_touch_class(void)` 即可。
+
+### 3. 数组长度不匹配
+
+```
+/home/easternday/Documents/KSU_Thyme_BuildBot/Kernel_Source/Lynnrin/drivers/staging/qcacld-3.0/core/mac/src/sys/legacy/src/utils/src/parser_api.c:5914:14: error: argument 'mdie' of type 'uint8_t[3]' (aka 'unsigned char[3]') with mismatched bound [-Werror,-Warray-parameter]
+                   uint8_t mdie[SIR_MDIE_SIZE])
+                           ^
+/home/easternday/Documents/KSU_Thyme_BuildBot/Kernel_Source/Lynnrin/drivers/staging/qcacld-3.0/core/mac/src/include/parser_api.h:1028:14: note: previously declared as 'uint8_t[]' (aka 'unsigned char[]') here
+                   uint8_t mdie[]);
+                           ^
+```
+
+将 `uint8_t mdie[SIR_MDIE_SIZE])` 更改为 `uint8_t mdie[])` 即可。
+
 ##  参考
 
 - [自己编译定制一个牛逼的安卓内核](https://parrotsec-cn.org/t/topic/2168)
