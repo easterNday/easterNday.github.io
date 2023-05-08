@@ -1,4 +1,4 @@
-#  终端 Nerd Font 字体支持
+# 终端 Nerd Font 字体支持
 
 ##  Nerd Fonts 介绍
 

@@ -1,4 +1,4 @@
-#  Arch Linux 终端相关内容
+# Arch Linux 终端相关内容
 
 本人目前使用的终端是 `zsh` 。
 

@@ -1,4 +1,4 @@
-#  华硕电脑风扇控制
+# 华硕电脑风扇控制
 
 > 这一部分主要讲一下华硕的 `TUF` 型号的机型怎么配置控制风扇转速，更多详细内容可以参考 [官方文档](https://wiki.archlinux.org/title/fan_speed_control#Fan_control_modes_on_certain_TUF_series_laptops)
 

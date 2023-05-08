@@ -1,4 +1,4 @@
-#  Arch Linux
+# Arch Linux
 
 ##  现役设备
 

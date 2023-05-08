@@ -1,4 +1,4 @@
-#  Arch Linux 仓库
+# Arch Linux 仓库
 
 ##  系统补熵
 

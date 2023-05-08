@@ -1,4 +1,4 @@
-#  利用 Payload-dumper 提取各部分镜像
+# 利用 Payload-dumper 提取各部分镜像
 
 ##  提取前准备
 

@@ -1,4 +1,4 @@
-#  Arch Linux 简明安装指南
+# Arch Linux 简明安装指南
 
 ##  自动安装
 

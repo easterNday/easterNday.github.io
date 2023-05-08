@@ -1,4 +1,4 @@
-#  KernelSU
+# KernelSU
 
 顾名思义，`KernelSU` 就是基于内核的 `SU` 。它通过自定义内核，直接在内核中赋予目标进程 `Root` 权限。
 

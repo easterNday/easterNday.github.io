@@ -2,7 +2,6 @@
 
 `DSU` 是动态系统更新（Dynamic System Updates）的缩写，是一项在 Android 10 及以上版本中引入的功能，可以让用户在不重启设备的情况下更新系统镜像。
 
-
 ## 必备条件
 
 - 一台 Android 10+ 的安卓设备
@@ -18,7 +17,7 @@
 <div style="display:flex;">
     <img src="/assets/Android/DSU/Native_DSU.png" style="width:33%; margin-right:5px;">
     <img src="/assets/Android/DSU/DSU_Selection.png" style="width:33%; margin-right:5px;">
-    <img src="/assets/Android/DSU/DSU_Complete_Notice.png" style="width:33%; margin-left:5px;">
+    <img src="/assets/Android/DSU/DSU_Complete_Notice.png" style="width:33%;">
 </div>
 
 点击 DSU Loader 后，系统会自动搜索并检查可用于当前设备的 GSI 镜像版本，不熟悉架构的朋友也无需在 ARM64、x86 之间纠结。选择自己需要的镜像进行安装即可。
@@ -43,8 +42,8 @@
 
 点击“安装”按钮开始安装 GSI。安装完成后，你需要根据不同的操作模式进行下一步操作。
 
-| 操作模式    | 特点                                                                                                            |
-| ----------- | --------------------------------------------------------------------------------------------------------------- |
+| 操作模式    | 特点                                                                                                              |
+| ----------- | ----------------------------------------------------------------------------------------------------------------- |
 | ADB         | 默认操作模式，需要在电脑上运行 `adb` 命令来安装 GSI                                                               |
 | Shizuku     | 需要在设备中安装 `Shizuku` 应用程序，支持跟踪安装进度和安装诊断                                                   |
 | Root        | 需要设备获得 `Root 权限`，不需要任何特殊权限，支持 DynamicSystem API 和内置 DSU 安装程序                          |
