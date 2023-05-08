@@ -22,7 +22,12 @@ export default defineConfig({
     sidebar, // 侧边导航栏
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/easterNday/easterNday.github.io" },
+      {
+        icon: "github",
+        link: "https://github.com/easterNday/easterNday.github.io",
+      },
     ],
   },
+  // Head 部分设置
+  head: [["link", { rel: "icon", type: "image/svg+xml", href: "logo.svg" }]],
 });

@@ -16,9 +16,9 @@
 首先我们需要开启 [开发者选项](https://developer.android.google.cn/studio/debug/dev-options?hl=zh-cn)，随后我们进入开发者选项，并找到如下图所示的 `DSU Loader` 选项。
 
 <div style="display:flex;">
-    <img src="/assets/Android/DSU/Native%20DSU.png" style="width:33%; margin-right:5px;">
-    <img src="/assets/Android/DSU/DSU%20Selection.png" style="width:33%; margin-right:5px;">
-    <img src="/assets/Android/DSU/DSU%20Complete%20Notice.png" style="width:33%; margin-left:5px;">
+    <img src="/assets/Android/DSU/Native_DSU.png" style="width:33%; margin-right:5px;">
+    <img src="/assets/Android/DSU/DSU_Selection.png" style="width:33%; margin-right:5px;">
+    <img src="/assets/Android/DSU/DSU_Complete_Notice.png" style="width:33%; margin-left:5px;">
 </div>
 
 点击 DSU Loader 后，系统会自动搜索并检查可用于当前设备的 GSI 镜像版本，不熟悉架构的朋友也无需在 ARM64、x86 之间纠结。选择自己需要的镜像进行安装即可。
