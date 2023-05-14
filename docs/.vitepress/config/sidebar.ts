@@ -89,6 +89,7 @@ const sidebarConfig: DefaultTheme.Sidebar = {
             },
           ],
         },
+        { text: "GSI", link: "/Topic/Android/GSI/" },
         { text: "DSU", link: "/Topic/Android/DSU/" },
         {
           text: "内核开发",
