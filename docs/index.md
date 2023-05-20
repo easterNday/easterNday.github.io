@@ -59,5 +59,10 @@ features:
     details: 相关插件推荐及使用
     link: https://www.baidu.com
     linkText: 查看更多
+  - icon: 
+    title: Docker
+    details: 相关容器推荐及使用
+    link: /Application/Docker/
+    linkText: 查看更多
 ---
 

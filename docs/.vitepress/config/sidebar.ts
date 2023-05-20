@@ -165,6 +165,20 @@ const sidebarConfig: DefaultTheme.Sidebar = {
       ],
     },
   ],
+
+  "/Application/Docker/": [
+    {
+      text: "Docker",
+      items: [
+        { text: "简介", link: "/Application/Docker/" },
+        {
+          text: "无人值守直播",
+          collapsed: true,
+          items: [{ text: "Ant Media Server", link: "/Application/Docker/AMS/" }],
+        },
+      ],
+    },
+  ],
 };
 
 export default sidebarConfig;
