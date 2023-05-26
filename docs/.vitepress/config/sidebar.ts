@@ -115,6 +115,7 @@ const sidebarConfig: DefaultTheme.Sidebar = {
           collapsed: true,
           items: [
             { text: "Git-LFS", link: "/Application/Git/Command/Git_LFS.md" },
+            { text: "分支操作", link: "/Application/Git/Command/Git_Branch.md" },
           ],
         },
         {
@@ -174,7 +175,25 @@ const sidebarConfig: DefaultTheme.Sidebar = {
         {
           text: "无人值守直播",
           collapsed: true,
-          items: [{ text: "Ant Media Server", link: "/Application/Docker/AMS/" }],
+          items: [
+            { text: "Ant Media Server", link: "/Application/Docker/AMS/" },
+          ],
+        },
+      ],
+    },
+  ],
+
+  "/Application/VSCodium/": [
+    {
+      text: "VSCodium",
+      items: [
+        { text: "简介", link: "/Application/VSCodium/" },
+        {
+          text: "插件推荐",
+          items: [
+            { text: "界面美化插件", link: "/Application/VSCodium/Plugins/Beautify.md" },
+            { text: "编程相关插件推荐", link: "/Application/VSCodium/Plugins/Coding.md" },
+          ],
         },
       ],
     },

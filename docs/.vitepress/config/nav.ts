@@ -16,6 +16,7 @@ const navConfig: DefaultTheme.NavItem[] = [
     items: [
       { text: " Git", link: "/Application/Git/" },
       { text: " Unity", link: "/Application/Unity/" },
+      { text: "󰨞 VSCodium", link: "/Application/VSCodium/" },
       { text: " Docker", link: "/Application/Docker/" },
     ],
   },

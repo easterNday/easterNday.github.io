@@ -52,7 +52,7 @@ features:
   - icon: 
     title: VSCodium
     details: 相关插件推荐及使用
-    link: https://www.baidu.com
+    link: /Application/VSCodium/
     linkText: 查看更多
   - icon: 
     title: NeoVim
@@ -65,4 +65,3 @@ features:
     link: /Application/Docker/
     linkText: 查看更多
 ---
-
