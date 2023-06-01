@@ -20,6 +20,16 @@ const sidebarConfig: DefaultTheme.Sidebar = {
         { text: "仓库相关", link: "/Topic/Arch/Repos.md" },
         { text: "终端相关", link: "/Topic/Arch/Terminal.md" },
         {
+          text: "美化相关",
+          collapsed: true,
+          items: [
+            {
+              text: "自定义开机动画",
+              link: "/Topic/Arch/Beautify/Splash.md",
+            },
+          ],
+        },
+        {
           text: "其他设置",
           collapsed: true,
           items: [
@@ -89,7 +99,14 @@ const sidebarConfig: DefaultTheme.Sidebar = {
             },
           ],
         },
-        { text: "GSI", link: "/Topic/Android/GSI/" },
+        {
+          text: "通用系统镜像",
+          collapsed: true,
+          items: [
+            { text: "GSI 介绍", link: "/Topic/Android/GSI/" },
+            { text: "GSI 安装", link: "/Topic/Android/GSI/install.md" },
+          ],
+        },
         { text: "DSU", link: "/Topic/Android/DSU/" },
         {
           text: "内核开发",
@@ -115,7 +132,10 @@ const sidebarConfig: DefaultTheme.Sidebar = {
           collapsed: true,
           items: [
             { text: "Git-LFS", link: "/Application/Git/Command/Git_LFS.md" },
-            { text: "分支操作", link: "/Application/Git/Command/Git_Branch.md" },
+            {
+              text: "分支操作",
+              link: "/Application/Git/Command/Git_Branch.md",
+            },
           ],
         },
         {
@@ -190,9 +210,16 @@ const sidebarConfig: DefaultTheme.Sidebar = {
         { text: "简介", link: "/Application/VSCodium/" },
         {
           text: "插件推荐",
+          collapsed: true,
           items: [
-            { text: "界面美化插件", link: "/Application/VSCodium/Plugins/Beautify.md" },
-            { text: "编程相关插件推荐", link: "/Application/VSCodium/Plugins/Coding.md" },
+            {
+              text: "界面美化插件",
+              link: "/Application/VSCodium/Plugins/Beautify.md",
+            },
+            {
+              text: "编程相关插件推荐",
+              link: "/Application/VSCodium/Plugins/Coding.md",
+            },
           ],
         },
       ],

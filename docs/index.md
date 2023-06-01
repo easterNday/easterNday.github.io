@@ -39,16 +39,6 @@ features:
     link: /Topic/ChromeOS/
     linkText: 查看更多
 
-  - icon: 
-    title: Git
-    details: Git 工具的操作及使用
-    link: /Application/Git/
-    linkText: 查看更多
-  - icon: 
-    title: Unity
-    details: Unity 项目开发及插件推荐
-    link: /Application/Unity/
-    linkText: 查看更多
   - icon: 
     title: VSCodium
     details: 相关插件推荐及使用
@@ -59,9 +49,25 @@ features:
     details: 相关插件推荐及使用
     link: https://www.baidu.com
     linkText: 查看更多
+  - icon: 
+    title: Git
+    details: Git 工具的操作及使用
+    link: /Application/Git/
+    linkText: 查看更多
+  - icon: 
+    title: Unity
+    details: Unity 项目开发及插件推荐
+    link: /Application/Unity/
+    linkText: 查看更多
+
   - icon: 
     title: Docker
     details: 相关容器推荐及使用
     link: /Application/Docker/
+    linkText: 查看更多
+  - icon: 󰌔
+    title: Kodi
+    details: 家庭影院的相关设置及玩法技巧
+    link: https://www.baidu.com
     linkText: 查看更多
 ---
