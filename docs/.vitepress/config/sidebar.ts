@@ -27,6 +27,10 @@ const sidebarConfig: DefaultTheme.Sidebar = {
               text: "自定义开机动画",
               link: "/Topic/Arch/Beautify/Splash.md",
             },
+            {
+              text: "Zsh 美化",
+              link: "/Topic/Arch/Beautify/Zsh.md",
+            }
           ],
         },
         {
