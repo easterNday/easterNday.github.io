@@ -30,7 +30,7 @@ const sidebarConfig: DefaultTheme.Sidebar = {
             {
               text: "Zsh 美化",
               link: "/Topic/Arch/Beautify/Zsh.md",
-            }
+            },
           ],
         },
         {
@@ -227,6 +227,13 @@ const sidebarConfig: DefaultTheme.Sidebar = {
           ],
         },
       ],
+    },
+  ],
+
+  "/Application/Neovim/": [
+    {
+      text: "Neovim",
+      items: [{ text: "简介", link: "/Application/Neovim/" }],
     },
   ],
 };

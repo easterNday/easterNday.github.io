@@ -18,6 +18,7 @@ const navConfig: DefaultTheme.NavItem[] = [
       { text: " Unity", link: "/Application/Unity/" },
       { text: "󰨞 VSCodium", link: "/Application/VSCodium/" },
       { text: " Docker", link: "/Application/Docker/" },
+      { text: " Neovim", link: "/Application/Neovim/" },
     ],
   },
 ];

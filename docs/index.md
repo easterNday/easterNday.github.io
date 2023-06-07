@@ -47,7 +47,7 @@ features:
   - icon: 
     title: NeoVim
     details: 相关插件推荐及使用
-    link: https://www.baidu.com
+    link: /Application/Neovim/
     linkText: 查看更多
   - icon: 
     title: Git
