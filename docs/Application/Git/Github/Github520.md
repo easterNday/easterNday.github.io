@@ -22,3 +22,8 @@
 - Auto Refresh: 最好选 `1 hour`
 
 > 更多更新方式，请查看[源仓库文档](https://github.com/521xueweihan/GitHub520/blob/main/README.md)
+
+## 一些可用的 Github 加速服务
+
+- [kGituhb](https://help.kgithub.com/)
+- [ghproxy](https://ghproxy.com/)

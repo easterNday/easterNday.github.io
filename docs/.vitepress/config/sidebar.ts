@@ -90,6 +90,20 @@ const sidebarConfig: DefaultTheme.Sidebar = {
       items: [
         { text: "简介", link: "/Topic/Android/" },
         {
+          text: "从零开始刷机",
+          collapsed: true,
+          items: [
+            {
+              text: "前言",
+              link: "/Topic/Android/Flash/",
+            },
+            {
+              text: "解锁 BootLoader",
+              link: "/Topic/Android/Flash/Unlock%20Bootloader.md",
+            },
+          ],
+        },
+        {
           text: "Root 相关",
           collapsed: true,
           items: [
