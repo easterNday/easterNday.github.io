@@ -119,21 +119,37 @@ const sidebarConfig: DefaultTheme.Sidebar = {
           ],
         },
         {
-          text: "通用系统镜像",
+          text: "ROM 开发",
           collapsed: true,
           items: [
-            { text: "GSI 介绍", link: "/Topic/Android/GSI/" },
-            { text: "GSI 安装", link: "/Topic/Android/GSI/install.md" },
-          ],
-        },
-        { text: "DSU", link: "/Topic/Android/DSU/" },
-        {
-          text: "内核开发",
-          collapsed: true,
-          items: [
-            { text: "内核介绍", link: "/Topic/Android/Kernel/" },
-            { text: "内核编译", link: "/Topic/Android/Kernel/Compile.md" },
-            { text: "KernelSU", link: "/Topic/Android/Kernel/KernelSU.md" },
+            {
+              text: "运行时资源替换",
+              link: "/Topic/Android/ROM/rro_overlays.md",
+            },
+            {
+              text: "内核开发",
+              collapsed: true,
+              items: [
+                { text: "内核介绍", link: "/Topic/Android/ROM/Kernel/" },
+                {
+                  text: "内核编译",
+                  link: "/Topic/Android/ROM/Kernel/Compile.md",
+                },
+                {
+                  text: "KernelSU",
+                  link: "/Topic/Android/ROM/Kernel/KernelSU.md",
+                },
+              ],
+            },
+            {
+              text: "通用系统镜像",
+              collapsed: true,
+              items: [
+                { text: "GSI 介绍", link: "/Topic/Android/ROM/GSI/" },
+                { text: "GSI 刷写", link: "/Topic/Android/ROM/GSI/Flash.md" },
+                { text: "GSI 动态系统", link: "/Topic/Android/ROM/GSI/DSU.md" },
+              ],
+            },
           ],
         },
         { text: "小米手机", link: "/Topic/Android/Xiaomi.md" },
