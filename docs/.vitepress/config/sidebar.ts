@@ -43,6 +43,7 @@ const sidebarConfig: DefaultTheme.Sidebar = {
             },
           ],
         },
+        { text: "其他 Linux 相关操作", link: "/Topic/Arch/Other.md" },
       ],
     },
   ],
