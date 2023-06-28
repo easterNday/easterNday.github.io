@@ -4,6 +4,10 @@ import Theme from 'vitepress/theme'
 import './style/vars.css'
 import './style/font.css'
 
+// 引入 Ant Design Vue
+import Antd from 'ant-design-vue';
+import 'ant-design-vue/dist/reset.css';
+
 export default {
   ...Theme,
   Layout: () => {
@@ -12,6 +16,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.use(Antd);
   }
 }

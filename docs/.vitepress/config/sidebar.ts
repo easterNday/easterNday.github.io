@@ -7,6 +7,7 @@ const sidebarConfig: DefaultTheme.Sidebar = {
       items: [
         { text: "博客说明", link: "/Overview/" },
         { text: "规约式提交", link: "/Overview/conventional" },
+        { text: "Ant Design Vue", link: "/Overview/Antd" }, 
       ],
     },
   ],
