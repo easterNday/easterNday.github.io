@@ -23,8 +23,9 @@ const navConfig: DefaultTheme.NavItem[] = [
   {
     text: "游戏开发",
     items: [
-      { text: " Unity", link: "/Application/Unity/" },
-      { text: " Godot", link: "/Application/Godot/" },
+      { text: " Unity", link: "/GameDevelop/Unity/" },
+      { text: " Godot", link: "/GameDevelop/Godot/" },
+      { text: "󰖟 资源网站", link: "/GameDevelop/Websites/" },
     ],
   },
 ];

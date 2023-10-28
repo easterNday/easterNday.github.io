@@ -239,21 +239,21 @@ const sidebarConfig: DefaultTheme.Sidebar = {
     },
   ],
 
-  "/Application/Unity/": [
+  "/GameDevelop/Unity/": [
     {
       text: "Unity",
       items: [
-        { text: "简介", link: "/Application/Unity/" },
+        { text: "简介", link: "/GameDevelop/Unity/" },
         {
           text: "破解修改",
           collapsed: true,
-          items: [{ text: "指南", link: "/Application/Unity/Hack/" }],
+          items: [{ text: "指南", link: "/GameDevelop/Unity/Hack/" }],
         },
         {
           text: "插件推荐",
           collapsed: true,
           items: [
-            { text: "推荐清单", link: "/Application/Unity/Plugins/index.md" },
+            { text: "推荐清单", link: "/GameDevelop/Unity/Plugins/index.md" },
           ],
         },
         {
@@ -262,7 +262,7 @@ const sidebarConfig: DefaultTheme.Sidebar = {
           items: [
             {
               text: "忽略列表",
-              link: "/Application/Unity/Project/GitIgnoreTemplate.md",
+              link: "/GameDevelop/Unity/Project/GitIgnoreTemplate.md",
             },
           ],
         },
@@ -270,12 +270,19 @@ const sidebarConfig: DefaultTheme.Sidebar = {
     },
   ],
 
-  "/Application/Godot/": [
+  "/GameDevelop/Godot/": [
     {
       text: "Godot",
-      items: [{ text: "简介", link: "/Application/Godot/" }],
+      items: [{ text: "简介", link: "/GameDevelop/Godot/" }],
     },
   ],
+
+  // "/GameDevelop/Websites/": [
+  //   {
+  //     text: "资源网站",
+  //     items: [{ text: "简介", link: "/GameDevelop/Websites/" }],
+  //   },
+  // ],
 };
 
 export default sidebarConfig;

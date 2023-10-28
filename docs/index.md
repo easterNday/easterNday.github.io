@@ -63,11 +63,16 @@ features:
   - icon: 
     title: Unity
     details: Unity 项目开发及插件推荐
-    link: /Application/Unity/
+    link: /GameDevelop/Unity/
     linkText: 查看更多
   - icon: 
     title: Godot
     details: Godot 项目开发及插件推荐
-    link: /Application/Godot/
+    link: /GameDevelop/Godot/
+    linkText: 查看更多
+  - icon: 󰖟
+    title: 资源网站
+    details: 游戏开发的资源获取网站
+    link: /GameDevelop/Websites/
     linkText: 查看更多
 ---
