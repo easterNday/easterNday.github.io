@@ -7,7 +7,7 @@ hero:
   text: "令神仙魚歸天要怪誰？"
   tagline: "找工作中……"
   image:
-    src: /easterNday.png
+    src: /logo.svg
     alt: easterNday
   actions:
     - theme: brand
@@ -65,7 +65,7 @@ features:
     details: Unity 项目开发及插件推荐
     link: /GameDevelop/Unity/
     linkText: 查看更多
-  - icon: 
+  - icon: 
     title: Godot
     details: Godot 项目开发及插件推荐
     link: /GameDevelop/Godot/

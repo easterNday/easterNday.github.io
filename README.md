@@ -5,8 +5,9 @@
     rel="noopener noreferrer"
   >
     <img
-      width="72px"
-      src="./docs/public/easterNday.png"
+      width="200px"
+      height="100px"
+      src="./docs/public/logo.svg"
       alt="easterNday的博客"
     />
   </a>
@@ -24,10 +25,7 @@
     target="_blank"
     rel="noopener noreferrer"
   >
-    <img
-      alt="Lines of code"
-      src="https://img.shields.io/tokei/lines/github/easterNday/easterNday.github.io"
-    />
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/easterNday/easterNday.github.io">
   </a>
   <a
     href="https://github.com/easterNday/easterNday.github.io"
