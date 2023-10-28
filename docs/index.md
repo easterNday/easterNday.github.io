@@ -65,9 +65,4 @@ features:
     details: 相关容器推荐及使用
     link: /Application/Docker/
     linkText: 查看更多
-  - icon: 󰌔
-    title: Kodi
-    details: 家庭影院的相关设置及玩法技巧
-    link: https://www.baidu.com
-    linkText: 查看更多
 ---

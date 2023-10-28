@@ -5,7 +5,6 @@ import sidebar from "./config/sidebar";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  "type": "module",
   // 网站标题部分设置
   title: "easterNday's blog",
   titleTemplate: "DogDayAfternoon",
