@@ -15,10 +15,16 @@ const navConfig: DefaultTheme.NavItem[] = [
     text: "工具 | 软件",
     items: [
       { text: " Git", link: "/Application/Git/" },
-      { text: " Unity", link: "/Application/Unity/" },
       { text: "󰨞 VSCodium", link: "/Application/VSCodium/" },
       { text: " Docker", link: "/Application/Docker/" },
       { text: " Neovim", link: "/Application/Neovim/" },
+    ],
+  },
+  {
+    text: "游戏开发",
+    items: [
+      { text: " Unity", link: "/Application/Unity/" },
+      { text: " Godot", link: "/Application/Godot/" },
     ],
   },
 ];

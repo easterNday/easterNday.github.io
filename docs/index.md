@@ -54,15 +54,20 @@ features:
     details: Git 工具的操作及使用
     link: /Application/Git/
     linkText: 查看更多
+  - icon: 
+    title: Docker
+    details: 相关容器推荐及使用
+    link: /Application/Docker/
+    linkText: 查看更多
+
   - icon: 
     title: Unity
     details: Unity 项目开发及插件推荐
     link: /Application/Unity/
     linkText: 查看更多
-
-  - icon: 
-    title: Docker
-    details: 相关容器推荐及使用
-    link: /Application/Docker/
+  - icon: 
+    title: Godot
+    details: Godot 项目开发及插件推荐
+    link: /Application/Godot/
     linkText: 查看更多
 ---

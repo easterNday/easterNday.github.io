@@ -193,37 +193,6 @@ const sidebarConfig: DefaultTheme.Sidebar = {
     },
   ],
 
-  "/Application/Unity/": [
-    {
-      text: "Unity",
-      items: [
-        { text: "简介", link: "/Application/Unity/" },
-        {
-          text: "破解修改",
-          collapsed: true,
-          items: [{ text: "指南", link: "/Application/Unity/Hack/" }],
-        },
-        {
-          text: "插件推荐",
-          collapsed: true,
-          items: [
-            { text: "推荐清单", link: "/Application/Unity/Plugins/index.md" },
-          ],
-        },
-        {
-          text: "项目管理",
-          collapsed: true,
-          items: [
-            {
-              text: "忽略列表",
-              link: "/Application/Unity/Project/GitIgnoreTemplate.md",
-            },
-          ],
-        },
-      ],
-    },
-  ],
-
   "/Application/Docker/": [
     {
       text: "Docker",
@@ -267,6 +236,44 @@ const sidebarConfig: DefaultTheme.Sidebar = {
     {
       text: "Neovim",
       items: [{ text: "简介", link: "/Application/Neovim/" }],
+    },
+  ],
+
+  "/Application/Unity/": [
+    {
+      text: "Unity",
+      items: [
+        { text: "简介", link: "/Application/Unity/" },
+        {
+          text: "破解修改",
+          collapsed: true,
+          items: [{ text: "指南", link: "/Application/Unity/Hack/" }],
+        },
+        {
+          text: "插件推荐",
+          collapsed: true,
+          items: [
+            { text: "推荐清单", link: "/Application/Unity/Plugins/index.md" },
+          ],
+        },
+        {
+          text: "项目管理",
+          collapsed: true,
+          items: [
+            {
+              text: "忽略列表",
+              link: "/Application/Unity/Project/GitIgnoreTemplate.md",
+            },
+          ],
+        },
+      ],
+    },
+  ],
+
+  "/Application/Godot/": [
+    {
+      text: "Godot",
+      items: [{ text: "简介", link: "/Application/Godot/" }],
     },
   ],
 };
