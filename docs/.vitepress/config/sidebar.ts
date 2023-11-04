@@ -172,10 +172,14 @@ const sidebarConfig: DefaultTheme.Sidebar = {
               text: "分支操作",
               link: "/Application/Git/Command/Git_Branch.md",
             },
+            {
+              text: "设置默认编辑器",
+              link: "/Application/Git/Command/Git_Editor.md",
+            },
           ],
         },
         {
-          text: "Githbu 相关",
+          text: "Github 相关",
           collapsed: true,
           items: [
             {
