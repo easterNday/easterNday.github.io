@@ -6,7 +6,7 @@
   >
     <img
       width="200px"
-      height="100px"
+      height="200px"
       src="./docs/public/logo.svg"
       alt="easterNday的博客"
     />
