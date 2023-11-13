@@ -1,13 +1,13 @@
 {
   "devDependencies": {
-    "@commitlint/cli": "^18.2.0",
-    "@commitlint/config-conventional": "^18.1.0",
-    "ant-design-vue": "4.0.6",
+    "@commitlint/cli": "^18.4.1",
+    "@commitlint/config-conventional": "^18.4.0",
+    "ant-design-vue": "4.0.7",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.3",
-    "vitepress": "1.0.0-rc.24",
-    "vue": "^3.3.7"
+    "vitepress": "1.0.0-rc.25",
+    "vue": "^3.3.8"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
