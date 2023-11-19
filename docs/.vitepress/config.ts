@@ -15,8 +15,9 @@ export default defineConfig({
   appearance: "dark", // 默认黑色主题
   lastUpdated: true, // 默认显示上一次更新记录
   themeConfig: {
+    siteTitle: false,
     // 主题 Logo
-    logo: "/logo.svg",
+    logo: "/easterNday.svg",
 
     nav, // 顶部导航栏
     sidebar, // 侧边导航栏

@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "东方怂天"
-  text: "令神仙魚歸天要怪誰？"
-  tagline: "找工作中……"
+  text: "当潮流，爱新鲜。"
+  tagline: "去克洛里吧，去克洛里啦。那里有鲜鱼和熊掌。"
   image:
     src: /logo.svg
     alt: easterNday

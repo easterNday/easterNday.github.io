@@ -124,8 +124,12 @@ const sidebarConfig: DefaultTheme.Sidebar = {
           collapsed: true,
           items: [
             {
-              text: "运行时资源替换",
-              link: "/Topic/Android/ROM/rro_overlays.md",
+              text: "系统开发",
+              collapsed: true,
+              items: [
+                { text: "运行时资源替换", link: "/Topic/Android/ROM/System/rro_overlays.md", },
+                { text: "自定义 Recovery", link: "/Topic/Android/ROM/System/custom_recovery.md", },
+              ],
             },
             {
               text: "内核开发",
