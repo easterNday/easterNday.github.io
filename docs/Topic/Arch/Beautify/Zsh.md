@@ -120,3 +120,31 @@ zmodule romkatv/powerlevel10k
 ```sh
 git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
+
+##  常见问题
+
+### 1. Git syntax for `^..` and `..` does not work with zsh
+
+在 zsh 中，使用 `git diff A^..B` 来查看 `A` 和 `B` 之间的差异。但是当执行此操作时，您可能得到以下内容:
+
+```sh
+zsh: no matches found: A^..B
+```
+
+这是因为 `^` 是 `zsh` 文件名或历史记录扩展中的特殊字符（开启 `EXTENDED_GLOB` 选项，可以 `^` 作为文件名扩展的特殊模式字符）。
+
+您可以使用 `noglob` 来避免将 `*`、`^` 和其他通配字符视被作为特殊引用。在 `.zshrc` 文件中添加如下行：
+
+```
+alias git='noglob git'
+```
+
+或者您可以将命令更改为：
+
+```sh
+git diff 'A^..B'
+```
+
+##  参考资料
+
+- [Git syntax for ^.. and .. does not work with zsh](https://github.com/ohmyzsh/ohmyzsh/issues/4398)

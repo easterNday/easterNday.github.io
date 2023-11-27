@@ -31,7 +31,7 @@
 gh release list | awk -F '\\t' '{print $3}' | while read -r line; do gh release delete -y "$line"; done
 ```
 
-这个命令会列出所有的 `release` ，然后删除它们。你也可以在删除 `release` 的同时删除关联的tag，只需要在命令中加上`--cleanup-tag`参数。
+这个命令会列出所有的 `release` ，然后删除它们。你也可以在删除 `release` 的同时删除关联的 tag，只需要在命令中加上`--cleanup-tag`参数。
 
 ```bash
 gh release list | awk -F '\\t' '{print $3}' | while read -r line; do gh release delete -y "$line" --cleanup-tag; done

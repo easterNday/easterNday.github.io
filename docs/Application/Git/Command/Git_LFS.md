@@ -6,7 +6,6 @@ Git LFS（Large File Storage） 是 Github 开发的一个 Git 的扩展，用�
 
 简而言之，如果您遇到了无法将大文件（一般是指超过 100M 的文件）上传至 Github，那么您可以考虑此种方式来上传。
 
-
 ## 安装 Git LFS
 
 对于 Arch 系统来说，仅需要在命令行运行如下命令：
@@ -28,7 +27,6 @@ git lfs install
 ## 增加需要追踪的大型文件
 
 开启支持后，我们可以使用 `git lfs track <File>` 来记录追踪您需要添加的大型文件。
-
 
 ::: code-group
 
@@ -85,4 +83,5 @@ git lfs ls-files
 ```zsh
 git gc --aggressive
 ```
+
 该命令会对本地存储库进行更彻底清理和优化，因此会耗费较长时间。
