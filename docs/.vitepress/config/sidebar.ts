@@ -35,6 +35,16 @@ const sidebarConfig: DefaultTheme.Sidebar = {
           ],
         },
         {
+          text: "云服务器",
+          collapsed: true,
+          items: [
+            {
+              text: "安装教程",
+              link: "Topic/Arch/ECS/Installation.md",
+            },
+          ],
+        },
+        {
           text: "其他设置",
           collapsed: true,
           items: [
