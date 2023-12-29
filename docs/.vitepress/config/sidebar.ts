@@ -207,6 +207,7 @@ const sidebarConfig: DefaultTheme.Sidebar = {
           ],
         },
         { text: "指令查询", link: "https://gitexplorer.com/" },
+        { text: "SSH 免密登陆", link: "/Application/Git/SSH/Password_Free_Login..md" },
       ],
     },
   ],
