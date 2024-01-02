@@ -57,7 +57,7 @@ KernelSU 的安装方法有如下几种，各自适用于不同的场景，请�
 
 ##  如何为非 GKI 内核集成 KernelSU
 
-请查阅[官方文档](https://kernelsu.org/zh_CN/guide/how-to-integrate-for-non-gki.html)以及本博客中的[内核编译教程](/Topic/Android/ROM/Kernel/Compile.md)。
+请查阅[官方文档](https://kernelsu.org/zh_CN/guide/how-to-integrate-for-non-gki.html)以及本博客中的[内核编译教程](/OS/Android/ROM/Kernel/Compile.md)。
 
 一些现成的第三方 KernelSU 提供请查看[非官方支持设备](https://kernelsu.org/zh_CN/guide/unofficially-support-devices.html#%E9%9D%9E%E5%AE%98%E6%96%B9%E6%94%AF%E6%8C%81%E8%AE%BE%E5%A4%87)。
 

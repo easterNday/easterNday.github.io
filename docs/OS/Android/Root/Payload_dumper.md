@@ -2,7 +2,7 @@
 
 ##  提取前准备
 
-- 含 Payload 的刷机包:小米手机可查阅[小米 ROM 下载](/Topic/Android/Xiaomi#rom-下载)下载，其余机型请自行寻找。
+- 含 Payload 的刷机包:小米手机可查阅[小米 ROM 下载](/OS/Android/Xiaomi#rom-下载)下载，其余机型请自行寻找。
 
 - [payload-dumper-go](https://github.com/ssut/payload-dumper-go): 对应 `macOS` , `Windows` 以及 `Linux` 预构建文件[下载地址](https://github.com/ssut/payload-dumper-go/releases)
 

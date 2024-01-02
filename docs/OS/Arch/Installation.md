@@ -48,7 +48,7 @@ archinstall
 
 如果您觉得官方文档比较难理解，也可以参考 [archlinux 简明指南](https://arch.icekylin.online/) 和 [Arch Linux Studio 指南](https://archlinuxstudio.github.io/ArchLinuxTutorial/) 中对应部分的教程。
 
-> 如果您是需要在 Windows 下启用对应的子系统，请参考[WSL 部分](/Topic/Windows/Virtual-Machine/WSL2.md)
+> 如果您是需要在 Windows 下启用对应的子系统，请参考[WSL 部分](/OS/Windows/Virtual-Machine/WSL2.md)
 
 ##  参考
 

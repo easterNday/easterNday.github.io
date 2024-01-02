@@ -5,10 +5,10 @@ const navConfig: DefaultTheme.NavItem[] = [
   {
     text: "操作系统",
     items: [
-      { text: " Arch Linux", link: "/Topic/Arch/" },
-      { text: " Windows", link: "/Topic/Windows/" },
-      { text: "󰀲 Android", link: "/Topic/Android/" },
-      { text: " Chrome OS", link: "/Topic/ChromeOS/" },
+      { text: " Arch Linux", link: "/OS/Arch/" },
+      { text: " Windows", link: "/OS/Windows/" },
+      { text: "󰀲 Android", link: "/OS/Android/" },
+      { text: " Chrome OS", link: "/OS/ChromeOS/" },
     ],
   },
   {

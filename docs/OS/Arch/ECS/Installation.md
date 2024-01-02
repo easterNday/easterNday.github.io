@@ -80,7 +80,7 @@ initrd /arch/boot/x86_64/initramfs-linux.img
 boot
 ```
 
-如果你看到了 `Welcome to Arch Linux` 字样，那么就可以按照正常 `Arch Linux` 安装流程进行 [Arch Linux 的安装](/Topic/Arch/Installation.md)了，别忘记开启 `ssh` 服务，启动指令如下:
+如果你看到了 `Welcome to Arch Linux` 字样，那么就可以按照正常 `Arch Linux` 安装流程进行 [Arch Linux 的安装](/OS/Arch/Installation.md)了，别忘记开启 `ssh` 服务，启动指令如下:
 
 ```
 systemctl start sshd

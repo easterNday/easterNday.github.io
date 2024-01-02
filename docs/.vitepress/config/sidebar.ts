@@ -12,25 +12,25 @@ const sidebarConfig: DefaultTheme.Sidebar = {
     },
   ],
 
-  "/Topic/Arch/": [
+  "/OS/Arch/": [
     {
       text: "Arch Linux",
       items: [
-        { text: "简介", link: "/Topic/Arch/" },
-        { text: "安装教程", link: "/Topic/Arch/Installation.md" },
-        { text: "仓库相关", link: "/Topic/Arch/Repos.md" },
-        { text: "终端相关", link: "/Topic/Arch/Terminal.md" },
+        { text: "简介", link: "/OS/Arch/" },
+        { text: "安装教程", link: "/OS/Arch/Installation.md" },
+        { text: "仓库相关", link: "/OS/Arch/Repos.md" },
+        { text: "终端相关", link: "/OS/Arch/Terminal.md" },
         {
           text: "美化相关",
           collapsed: true,
           items: [
             {
               text: "自定义开机动画",
-              link: "/Topic/Arch/Beautify/Splash.md",
+              link: "/OS/Arch/Beautify/Splash.md",
             },
             {
               text: "Zsh 美化",
-              link: "/Topic/Arch/Beautify/Zsh.md",
+              link: "/OS/Arch/Beautify/Zsh.md",
             },
           ],
         },
@@ -40,7 +40,7 @@ const sidebarConfig: DefaultTheme.Sidebar = {
           items: [
             {
               text: "安装教程",
-              link: "Topic/Arch/ECS/Installation.md",
+              link: "OS/Arch/ECS/Installation.md",
             },
           ],
         },
@@ -50,23 +50,23 @@ const sidebarConfig: DefaultTheme.Sidebar = {
           items: [
             {
               text: "风扇转速设置",
-              link: "/Topic/Arch/Special/Fan.md",
+              link: "/OS/Arch/Special/Fan.md",
             },
           ],
         },
-        { text: "其他 Linux 相关操作", link: "/Topic/Arch/Other.md" },
+        { text: "其他 Linux 相关操作", link: "/OS/Arch/Other.md" },
       ],
     },
   ],
 
-  "/Topic/Windows/": [
+  "/OS/Windows/": [
     {
       text: " Windows",
       items: [
-        { text: " 简介", link: "/Topic/Windows/" },
+        { text: " 简介", link: "/OS/Windows/" },
         {
           text: " 终端美化",
-          link: "/Topic/Windows/Beautify/Nerd-Fonts-Supply.md",
+          link: "/OS/Windows/Beautify/Nerd-Fonts-Supply.md",
         },
         {
           text: " 虚拟机",
@@ -74,11 +74,11 @@ const sidebarConfig: DefaultTheme.Sidebar = {
           items: [
             {
               text: "Hyper-V 简介",
-              link: "/Topic/Windows/Virtual-Machine/Hyper-V.md",
+              link: "/OS/Windows/Virtual-Machine/Hyper-V.md",
             },
             {
               text: "WSL2 相关内容",
-              link: "/Topic/Windows/Virtual-Machine/WSL2.md",
+              link: "/OS/Windows/Virtual-Machine/WSL2.md",
             },
           ],
         },
@@ -86,32 +86,32 @@ const sidebarConfig: DefaultTheme.Sidebar = {
     },
   ],
 
-  "/Topic/ChromeOS/": [
+  "/OS/ChromeOS/": [
     {
       text: "Chrome OS",
       items: [
-        { text: "简介", link: "/Topic/ChromeOS/" },
-        { text: "系统安装", link: "/Topic/ChromeOS/Installation.md" },
+        { text: "简介", link: "/OS/ChromeOS/" },
+        { text: "系统安装", link: "/OS/ChromeOS/Installation.md" },
       ],
     },
   ],
 
-  "/Topic/Android/": [
+  "/OS/Android/": [
     {
       text: "安卓开发",
       items: [
-        { text: "简介", link: "/Topic/Android/" },
+        { text: "简介", link: "/OS/Android/" },
         {
           text: "从零开始刷机",
           collapsed: true,
           items: [
             {
               text: "前言",
-              link: "/Topic/Android/Flash/",
+              link: "/OS/Android/Flash/",
             },
             {
               text: "解锁 BootLoader",
-              link: "/Topic/Android/Flash/Unlock%20Bootloader.md",
+              link: "/OS/Android/Flash/Unlock%20Bootloader.md",
             },
           ],
         },
@@ -125,7 +125,7 @@ const sidebarConfig: DefaultTheme.Sidebar = {
             },
             {
               text: "镜像提取 Payload-dumper",
-              link: "Topic/Android/Root/Payload_dumper.md",
+              link: "OS/Android/Root/Payload_dumper.md",
             },
           ],
         },
@@ -137,22 +137,22 @@ const sidebarConfig: DefaultTheme.Sidebar = {
               text: "系统开发",
               collapsed: true,
               items: [
-                { text: "运行时资源替换", link: "/Topic/Android/ROM/System/rro_overlays.md", },
-                { text: "自定义 Recovery", link: "/Topic/Android/ROM/System/custom_recovery.md", },
+                { text: "运行时资源替换", link: "/OS/Android/ROM/System/rro_overlays.md", },
+                { text: "自定义 Recovery", link: "/OS/Android/ROM/System/custom_recovery.md", },
               ],
             },
             {
               text: "内核开发",
               collapsed: true,
               items: [
-                { text: "内核介绍", link: "/Topic/Android/ROM/Kernel/" },
+                { text: "内核介绍", link: "/OS/Android/ROM/Kernel/" },
                 {
                   text: "内核编译",
-                  link: "/Topic/Android/ROM/Kernel/Compile.md",
+                  link: "/OS/Android/ROM/Kernel/Compile.md",
                 },
                 {
                   text: "KernelSU",
-                  link: "/Topic/Android/ROM/Kernel/KernelSU.md",
+                  link: "/OS/Android/ROM/Kernel/KernelSU.md",
                 },
               ],
             },
@@ -160,14 +160,14 @@ const sidebarConfig: DefaultTheme.Sidebar = {
               text: "通用系统镜像",
               collapsed: true,
               items: [
-                { text: "GSI 介绍", link: "/Topic/Android/ROM/GSI/" },
-                { text: "GSI 刷写", link: "/Topic/Android/ROM/GSI/Flash.md" },
-                { text: "GSI 动态系统", link: "/Topic/Android/ROM/GSI/DSU.md" },
+                { text: "GSI 介绍", link: "/OS/Android/ROM/GSI/" },
+                { text: "GSI 刷写", link: "/OS/Android/ROM/GSI/Flash.md" },
+                { text: "GSI 动态系统", link: "/OS/Android/ROM/GSI/DSU.md" },
               ],
             },
           ],
         },
-        { text: "小米手机", link: "/Topic/Android/Xiaomi.md" },
+        { text: "小米手机", link: "/OS/Android/Xiaomi.md" },
       ],
     },
   ],

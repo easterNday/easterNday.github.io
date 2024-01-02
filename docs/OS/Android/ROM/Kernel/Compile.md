@@ -232,7 +232,7 @@ struct class *get_xiaomi_touch_class()
 
 ##  参考
 
-- [自己编译定制一个牛逼的安卓内核](https://parrotsec-cn.org/t/topic/2168)
+- [自己编译定制一个牛逼的安卓内核](https://parrotsec-cn.org/t/OS/2168)
 - [让 Android 手机更省电流畅，你可以试试「刷内核」](https://sspai.com/post/56296)
 - [[内核向] 交叉编译器的选择](https://www.akr-developers.com/d/129)
 - [[白话文版] ClangBuiltLinux Clang 的使用](https://www.akr-developers.com/d/121)

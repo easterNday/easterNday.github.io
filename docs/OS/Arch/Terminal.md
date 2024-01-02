@@ -28,7 +28,7 @@ chsh -s /usr/bin/zsh
 
 ## 终端美化
 
-终端美化请详见 [Zsh 美化](/Topic/Arch/Beautify/Zsh.md) 部分。
+终端美化请详见 [Zsh 美化](/OS/Arch/Beautify/Zsh.md) 部分。
 
 ## 终端密码显示 `*`
 
