@@ -190,6 +190,10 @@ const sidebarConfig: DefaultTheme.Sidebar = {
               text: "设置默认编辑器",
               link: "/Application/Git/Command/Git_Editor.md",
             },
+            {
+              text: ".gitignore 文件配置",
+              link: "/Application/Git/Command/Git_Ignore.md",
+            },
           ],
         },
         {
