@@ -280,12 +280,16 @@ const sidebarConfig: DefaultTheme.Sidebar = {
           ],
         },
         {
-          text: "项目管理",
+          text: "项目开发",
           collapsed: true,
           items: [
             {
               text: "忽略列表",
               link: "/GameDevelop/Unity/Project/GitIgnoreTemplate.md",
+            },
+            {
+              text: "垂直滚动文字",
+              link: "/GameDevelop/Unity/Project/VerticallyScrollText.md",
             },
           ],
         },
