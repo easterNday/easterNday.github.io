@@ -70,6 +70,11 @@ features:
     details: Godot 项目开发及插件推荐
     link: /GameDevelop/Godot/
     linkText: 查看更多
+  - icon: 
+    title: Python
+    details: Python 小技巧
+    link: /Coding/Python/
+    linkText: 查看更多
   - icon: 󰖟
     title: 资源网站
     details: 游戏开发的资源获取网站

@@ -28,6 +28,12 @@ const navConfig: DefaultTheme.NavItem[] = [
       { text: "󰖟 资源网站", link: "/GameDevelop/Websites/" },
     ],
   },
+  {
+    text: "编程",
+    items: [
+      { text: " Python", link: "/Coding/Python/" },
+    ],
+  },
 ];
 
 export default navConfig;

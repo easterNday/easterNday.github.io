@@ -299,13 +299,15 @@ const sidebarConfig: DefaultTheme.Sidebar = {
       items: [{ text: "简介", link: "/GameDevelop/Godot/" }],
     },
   ],
-
-  // "/GameDevelop/Websites/": [
-  //   {
-  //     text: "资源网站",
-  //     items: [{ text: "简介", link: "/GameDevelop/Websites/" }],
-  //   },
-  // ],
+  "/Coding/Python/": [
+    {
+      text: "Python",
+      items: [
+        { text: "简介", link: "/Coding/Python/" },
+        { text: "Pyinstaller 逆向工程", link: "/Coding/Python/Pyinstaller_CrackMe.md" },
+      ],
+    },
+  ],
 };
 
 export default sidebarConfig;
