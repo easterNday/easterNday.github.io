@@ -187,6 +187,10 @@ const sidebarConfig: DefaultTheme.Sidebar = {
               link: "/Application/Git/Command/Git_Branch.md",
             },
             {
+              text: "仓库迁移",
+              link: "/Application/Git/Command/Git_Migrate.md",
+            },
+            {
               text: "设置默认编辑器",
               link: "/Application/Git/Command/Git_Editor.md",
             },
