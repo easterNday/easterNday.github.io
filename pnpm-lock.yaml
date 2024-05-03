@@ -17,8 +17,8 @@ devDependencies:
     specifier: ^19.2.2
     version: 19.2.2
   ant-design-vue:
-    specifier: 4.1.2
-    version: 4.1.2(vue@3.4.21)
+    specifier: 4.2.1
+    version: 4.2.1(vue@3.4.21)
   commitizen:
     specifier: ^4.3.0
     version: 4.3.0(@types/node@20.11.24)(typescript@5.3.3)
@@ -1209,8 +1209,8 @@ packages:
       color-convert: 2.0.1
     dev: true
 
-  /ant-design-vue@4.1.2(vue@3.4.21):
-    resolution: {integrity: sha512-ynFkDJLlHgumeK6Hr1UZ7PvQNZ1uBcri/pmejBdS3kRqHeA5VRsxneYDwa8YxA+uYB5YfT2jpYsSHsiMiCjRGg==}
+  /ant-design-vue@4.2.1(vue@3.4.21):
+    resolution: {integrity: sha512-3u6fmfCEJ5AFTsYhogP8lJ/vcqiAJO16o+gGQkWYRGLl0NxmY4hje4cPyv+pcxpeJgcG0vNEmkb1vVHKcnxd+g==}
     engines: {node: '>=12.22.0'}
     peerDependencies:
       vue: '>=3.2.0'
