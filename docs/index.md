@@ -38,6 +38,11 @@ features:
     details: 暂无
     link: /OS/ChromeOS/
     linkText: 查看更多
+  - icon: 󰑩
+    title: OpenWrt
+    details: 设备：京东云 亚瑟 AX1800 Pro
+    link: /OS/OpenWrt/
+    linkText: 查看更多
 
   - icon: 
     title: VSCodium

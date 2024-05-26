@@ -172,6 +172,15 @@ const sidebarConfig: DefaultTheme.Sidebar = {
     },
   ],
 
+  "/OS/OpenWrt/": [
+    {
+      text: "OpenWrt",
+      items: [
+        { text: "简介", link: "/OS/OpenWrt/" },
+      ],
+    },
+  ],
+
   "/Application/Git/": [
     {
       text: "Git",

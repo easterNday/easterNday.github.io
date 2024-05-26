@@ -9,6 +9,7 @@ const navConfig: DefaultTheme.NavItem[] = [
       { text: " Windows", link: "/OS/Windows/" },
       { text: "󰀲 Android", link: "/OS/Android/" },
       { text: " Chrome OS", link: "/OS/ChromeOS/" },
+      { text: "󰑩 OpenWrt", link: "/OS/OpenWrt/" },
     ],
   },
   {
