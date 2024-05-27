@@ -177,6 +177,7 @@ const sidebarConfig: DefaultTheme.Sidebar = {
       text: "OpenWrt",
       items: [
         { text: "简介", link: "/OS/OpenWrt/" },
+        { text: "DNS 服务器", link: "/OS/OpenWrt/DNS.md" },
       ],
     },
   ],
