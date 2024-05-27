@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [20]
+        node-version: [22]
     environment:
       name: github-pages
     steps:
@@ -24,7 +24,7 @@ jobs:
       - name: Setup pnpm ⚡️
         uses: pnpm/action-setup@v2
         with:
-          version: 8
+          version: 9
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
